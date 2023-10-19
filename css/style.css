@@ -1,0 +1,276 @@
+/* ここから下に記載していく */
+.main {
+  overflow: hidden;
+}
+.topimg {
+    position: relative;
+  }
+
+  header {
+    background-color: #fffd9d;
+  }
+
+.header_logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px 20px ;
+  }
+
+.header_list ul {
+  display: flex;
+}
+
+.header_list li {
+  list-style: none;
+}
+
+.header_list li a {
+  font-size: 21px;
+  color: #222222;
+  text-decoration: none;
+  text-shadow: 1px 1px 2px rgb(255, 255, 255);
+}
+
+.navitex {
+  
+  list-style: none;
+  display: flex;
+}
+
+a {
+  margin-left: 50px;
+}
+  .topimg img{
+    width:100%;
+  }
+
+  .sekai{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-size:30px;
+    font-weight: bold;
+    line-height: 60px;
+    color: rgb(255, 255, 255);
+    padding:0%;
+    margin: 0;
+  }
+  h2 span {
+    font-size: 20px;
+    font-weight: normal;
+
+  }
+
+.shame {
+    display: flex;
+    align-self: flex-start;
+    justify-content: space-around;
+}
+
+.kosu {
+  display: flex;
+}
+
+.kosu .image {
+  margin: 0;
+  padding: 0;
+  flex: 0 1 50%;
+}
+
+.kosu .image img {
+  width: 100%;
+  height: 100%;
+}
+
+.kosu .right {
+  background-color: yellow;
+  flex: 1;
+}
+
+.kosu .tttt {
+  margin-top: 120px;
+  margin-bottom: 40px;
+  margin-left: 50px;
+  padding: 0;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.kosu .tttt01 {
+  margin-bottom: 10px;
+  margin-left: 50px;
+  padding: 0;
+
+}
+
+.kosu .ttttt {
+  margin-top: 120px;
+  margin-bottom: 40px;
+  margin-left: 80px;
+  padding: 0;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.kosu .tttt02 {
+  margin-bottom: 10px;
+  margin-left: 80px;
+  padding: 0;
+
+}
+.midasi {
+    color: #ffcc00;
+    font-size:24px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.setumei {
+text-align: center;
+line-height:30px;
+
+}
+
+.shame3 {
+display: flex;
+justify-content: center;
+gap: 0 30px;
+font-size: 12px;
+}
+
+.piz3 {
+margin-top: 30px;
+line-height: 24px;
+}
+
+.btn {
+  text-align: center;
+  font-size: 40px;
+  justify-content: center;
+	padding: 60px;
+	margin: 60px 300px;
+	background-color: #ecd92b;
+	color: #fff;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+}
+.btn:hover {
+	opacity: 0.6;
+}
+
+.map {
+  padding-top: 50px;
+  margin-bottom: 60px;
+}
+
+.map iframe {
+margin: 0 auto;
+display: block;
+}
+
+.form {
+  text-align: center;
+  border-bottom:solid
+  #ff0000 1px;
+  }
+
+/* お問い合わせ */
+.otoi1 {
+  text-align: center;
+  line-height:30px;
+  margin-bottom: 70px;
+  
+  }
+/* お問い合わせ 2 */
+
+.otoi2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.otoi2 td,th{ /* 各セルの指定 */
+  padding:10px 30px;
+  text-align:left;
+  border-top: 1px solid #bfbfbf;
+  border-bottom:1px solid #bfbfbf;
+  border-right:1px solid #bfbfbf;
+}
+.otoi2 th{ /* 表の見出しの指定 */
+  
+}
+.otoi2 tr:first-child{  /* 最初の行の指定 */
+
+}
+.otoi2 tr:last-child{ /* 最後の行の指定 */
+
+}
+.otoi2 td:last-child{ /* 一番左の列の指定 */
+  border-right:0;
+}
+th:last-child{ /* 一番右の列の指定 */
+  border-right:0;
+}
+
+.otoi2 td {
+  vertical-align: middle;
+  margin-left: 8px;
+}
+
+.maxlength {
+  width: 75%;
+}
+
+.kikkake {
+margin-left: 8px;
+}
+
+.doki {
+  text-align: left;
+  text-indent: 24px;
+}
+
+.btn2 {
+  text-align: center;
+  font-size: 40px;
+  justify-content: center;
+	padding: 60px;
+	margin: 60px 300px;
+	background-color: #ecd92b;
+	color: #fff;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+}
+.btn2:hover {
+	opacity: 0.6;
+}
+
+.card1 {
+    width: auto;
+    height: auto;
+    background-color: #fafafac8;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card2 {
+    width: auto;
+    height: 100px;
+    background-color: #fafafac8;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.footer {
+    margin-top: 140px;
+    background-color: #636363;
+    color: #dddddd;
+    height: 70px;
+    display: flex;
+  }
+  .footer div {
+    margin: auto;
+  }
